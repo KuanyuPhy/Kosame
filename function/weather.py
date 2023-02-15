@@ -66,7 +66,7 @@ class CheckWeatherMenu():
             max_values =1,
             options = options
         )
-        print(city_locate)
+        #print(city_locate)
         self.view = discord.ui.View()
         self.view.add_item(self.select)
         self.folder_arr = city_weater
