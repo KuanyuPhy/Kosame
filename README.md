@@ -1,5 +1,5 @@
 
-# <p align="center"> Kosame - Discord Bot </p>
+# <p align="center"> :umbrella:Kosame - Discord Bot </p>
 ![](https://img.shields.io/github/pipenv/locked/dependency-version/ncuphysics/hack_bot/py-cord)
 ![](https://img.shields.io/bower/l/mi)
 
