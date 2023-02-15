@@ -39,5 +39,6 @@ hooray~ your own discord bot is online~~
  * [x] Tomorrow weather
  * [ ] Weakly weather
  * [ ] Other function
+ * [ ] CI/CD
 
 
