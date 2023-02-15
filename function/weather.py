@@ -7,7 +7,9 @@ import json
 import glob
 import os
 
-api_key = 'https://opendata.cwb.gov.tw/api/v1/rest/datastore/F-C0032-001?Authorization=CWB-65BFD2A8-AA98-4D34-881B-CE6060B65444&locationName='
+weatherkey = str(os.getenv("WEATHERKEY"))
+
+api_key = f'https://opendata.cwb.gov.tw/api/v1/rest/datastore/F-C0032-001?Authorization={weatherkey}&locationName='
 
 two_day_weater_req = requests.get(api_key)
 
